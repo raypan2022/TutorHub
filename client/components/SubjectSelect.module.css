@@ -1,0 +1,47 @@
+.submit-button {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  color: white;
+  cursor: not-allowed;
+  opacity: 0.5;
+  transition: background-color 0.3s, cursor 0.3s;
+}
+
+.submit-button.enabled {
+  background-color: #0070f3;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.custom-card {
+  padding: 1rem;
+  width: 10rem;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.custom-card:hover {
+  background-color: #f0f0f0;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  animation: hoverEffect 0.2s forwards;
+}
+
+.custom-card.selected {
+  background-color: #0070f3;
+  color: #fff;
+  transition: none;
+}
+
+.border-right {
+  border-right: 3px solid #000; /* Add a vertical line here */
+}
+
+.close-button {
+  top: 10px;
+  right: 10px;
+}

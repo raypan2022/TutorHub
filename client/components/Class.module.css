@@ -1,0 +1,14 @@
+.custom-card {
+  padding: 1rem;
+  width: 18rem;
+  height: 8rem;
+  border-radius: 0;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  cursor: pointer;
+}
+
+.custom-card:hover {
+  background-color: #0070f3;
+  color: #fff;
+  animation: hoverEffect 0.2s forwards;
+}

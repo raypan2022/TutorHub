@@ -1,0 +1,17 @@
+.tutorCard {
+  border-radius: 15px;
+  width: 20rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cardImage {
+  height: 20rem;
+  object-fit: cover;
+}
+
+.ambassadorBadge {
+  background-color: #d4b3ff;
+  color: #5a2d82;
+  font-weight: bold;
+}

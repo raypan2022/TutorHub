@@ -1,0 +1,25 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@heroicons/react": "^2.1.4",
+    "@raypan2022-tickets/common": "^1.0.19",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.11.3",
+    "next": "^13.4.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-calendly": "^4.3.1",
+    "react-dom": "^18.2.0",
+    "react-stripe-checkout": "^2.6.3"
+  }
+}
