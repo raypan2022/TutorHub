@@ -75,3 +75,7 @@ import { Levels, HighSchoolSubjects } from '@raypan2022-tickets/common';
 
 //   expect(natsWrapper.client.publish).toHaveBeenCalled();
 // });
+
+it('will pass', async () => {
+  
+})

@@ -29,3 +29,7 @@ import mongoose from 'mongoose';
 //   expect(ticketResponse.body.title).toEqual(title);
 //   expect(ticketResponse.body.price).toEqual(price);
 // });
+
+it('will pass', async () => {
+  
+})
