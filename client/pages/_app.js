@@ -16,7 +16,7 @@ const AppComponent = ({ Component, pageProps, currentUser }) => {
         </div>
         <footer style={{ marginTop: 'auto' }} className="bg-body-tertiary text-center text-lg-start">
           <div className="text-center p-3">
-            © 2024 Copyright: TutorHub
+            TutorHub v1.0.0
           </div>
         </footer>
       </div>
