@@ -4,7 +4,7 @@ import { app } from './app';
 import { natsWrapper } from './nats-wrapper';
 
 const start = async () => {
-  console.log('Auth service starting up...');
+  console.log('Auth service starting...');
   if (!process.env.JWT_KEY) {
     throw new Error('JWT_KEY must be defined');
   }
