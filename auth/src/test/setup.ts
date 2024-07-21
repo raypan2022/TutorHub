@@ -7,6 +7,8 @@ declare global {
   var signin: () => Promise<string[]>;
 }
 
+jest.mock('../nats-wrapper');
+
 let mongo: any;
 beforeAll(async () => {
   process.env.JWT_KEY = 'asdfasdf';
@@ -19,6 +21,7 @@ beforeAll(async () => {
 });
 
 beforeEach(async () => {
+  jest.clearAllMocks();
   const collections = await mongoose.connection.db.collections();
 
   for (let collection of collections) {
@@ -35,12 +38,14 @@ afterAll(async () => {
 
 global.signin = async () => {
   const email = 'test@test.com';
+  const name = 'test';
   const password = 'password';
 
   const response = await request(app)
     .post('/api/users/signup')
     .send({
       email,
+      name,
       password,
     })
     .expect(201);
