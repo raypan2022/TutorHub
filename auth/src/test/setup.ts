@@ -7,6 +7,7 @@ declare global {
   var signin: () => Promise<string[]>;
 }
 
+// added mock to auth as well
 jest.mock('../nats-wrapper');
 
 let mongo: any;
