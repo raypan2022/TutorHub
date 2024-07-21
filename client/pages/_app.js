@@ -8,13 +8,17 @@ import { AppProvider } from '../context/AppContext';
 const AppComponent = ({ Component, pageProps, currentUser }) => {
   return (
     <AppProvider>
-      <div>
+      <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <Header currentUser={currentUser} />
         <BackButton />
-        <div className="container py-4">
+        <div className="container py-4" style={{ flex: '1' }}>
           <Component currentUser={currentUser} {...pageProps} />
         </div>
-        {/* <footer>footer</footer> */}
+        <footer style={{ marginTop: 'auto' }} className="bg-body-tertiary text-center text-lg-start">
+          <div className="text-center p-3">
+            © 2024 Copyright: TutorHub
+          </div>
+        </footer>
       </div>
     </AppProvider>
   );

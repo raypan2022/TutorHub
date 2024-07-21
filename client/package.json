@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@heroicons/react": "^2.1.4",
-    "@raypan2022-tickets/common": "^1.0.19",
+    "@raypan2022-tickets/common": "^1.0.20",
     "axios": "^1.4.0",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.11.3",
