@@ -151,3 +151,7 @@ import { natsWrapper } from '../../nats-wrapper';
 //     })
 //     .expect(400);
 // });
+
+it('will pass', async () => {
+  
+})

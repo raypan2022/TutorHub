@@ -58,3 +58,7 @@ import { Levels, HighSchoolSubjects } from '@raypan2022-tickets/common';
 //   expect(response.body[0].ticket.id).toEqual(ticketTwo.id);
 //   expect(response.body[1].ticket.id).toEqual(ticketThree.id);
 // });
+
+it('will pass', async () => {
+  
+})

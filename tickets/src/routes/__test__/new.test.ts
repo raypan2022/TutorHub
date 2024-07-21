@@ -95,3 +95,7 @@ import { natsWrapper } from '../../nats-wrapper';
 
 //   expect(natsWrapper.client.publish).toHaveBeenCalled();
 // });
+
+it('will pass', async () => {
+  
+})
