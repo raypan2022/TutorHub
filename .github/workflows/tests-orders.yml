@@ -11,4 +11,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: cd auth && npm install && npm run test:ci
+      - run: cd orders && npm install && npm run test:ci
