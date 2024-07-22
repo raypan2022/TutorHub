@@ -4,13 +4,13 @@ metadata:
   name: ingress-service
   annotations:
     nginx.ingress.kubernetes.io/use-regex: 'true'
-    cert-manager.io/cluster-issuer: letsencrypt-prod
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
 spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - www.tutorhubapp.ca # Replace with your domain
-    secretName: ingress-tls # Secret name for the TLS certificate
+    - www.tutorhubapp.ca
+    secretName: ingress-tls
   rules:
     - host: www.tutorhubapp.ca
       http:
