@@ -8,9 +8,9 @@ metadata:
 spec:
   ingressClassName: nginx
   tls:
-  - hosts:
-    - ticketing.dev
-    secretName: ingress-tls
+    - hosts:
+      - ticketing.dev
+      secretName: ingress-tls
   rules:
     - host: ticketing.dev
       http:
