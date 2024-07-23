@@ -17,7 +17,7 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
-    - image: raypan2022/ticketing-client
+    - image: raypan2022/client
       context: client
       docker:
         dockerfile: Dockerfile

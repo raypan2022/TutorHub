@@ -8,9 +8,9 @@ metadata:
 spec:
   ingressClassName: nginx
   tls:
-  - hosts:
-    - www.tutorhubapp.ca
-    secretName: ingress-tls
+    - hosts:
+      - www.tutorhubapp.ca
+      secretName: ingress-tls
   rules:
     - host: www.tutorhubapp.ca
       http:
