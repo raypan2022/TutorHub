@@ -6,7 +6,7 @@ export default ({ req }) => {
 
     return axios.create({
       baseURL:
-        'www.tutorhubapp.ca',
+        'https://www.tutorhubapp.ca',
       headers: req.headers,
     });
   } else {
