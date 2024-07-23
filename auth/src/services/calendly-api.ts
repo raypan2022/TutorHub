@@ -28,7 +28,7 @@ const getAccessToken = async (code: string): Promise<Tokens> => {
       {
         grant_type: 'authorization_code',
         code,
-        redirect_uri: 'https://ticketing.dev/auth/calendly/callback', // Replace with your actual redirect URI
+        redirect_uri: 'https://www.tutorhubapp.ca/auth/calendly/callback', // Replace with your actual redirect URI
       },
       { headers }
     );
