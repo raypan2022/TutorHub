@@ -68,7 +68,7 @@ const Profile = ({
 
   const handleConnectCalendly = () => {
     const clientId = 'jC79H2W2OI_1geNZX1Kz5osV4rMuaQOoNa0yEqDkCqo';
-    const redirectUri = 'https://tutorhubapp.ca/auth/calendly/callback';
+    const redirectUri = 'https://www.tutorhubapp.ca/auth/calendly/callback';
 
     const authorizationUrl = `https://auth.calendly.com/oauth/authorize?response_type=code&client_id=${clientId}&response_type=code&redirect_uri=${redirectUri}`;
     Router.push(authorizationUrl);
