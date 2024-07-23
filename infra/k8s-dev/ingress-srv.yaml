@@ -4,13 +4,8 @@ metadata:
   name: ingress-service
   annotations:
     nginx.ingress.kubernetes.io/use-regex: 'true'
-    cert-manager.io/issuer: "letsencrypt-staging"
 spec:
   ingressClassName: nginx
-  tls:
-    - hosts:
-      - ticketing.dev
-      secretName: ingress-tls
   rules:
     - host: ticketing.dev
       http:
