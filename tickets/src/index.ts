@@ -8,6 +8,7 @@ import { UserCreatedListener } from './events/listeners/user-created-listener';
 import { UserUpdatedListener } from './events/listeners/user-updated-listener';
 
 const start = async () => {
+  console.log('Tickets service starting up...');
   if (!process.env.JWT_KEY) {
     throw new Error('JWT_KEY must be defined');
   }
