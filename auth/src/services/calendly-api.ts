@@ -35,6 +35,7 @@ const getAccessToken = async (code: string): Promise<Tokens> => {
     
     return response.data;
   } catch (error) {
+    console.log(error);
     throw new InternalError(
       'Something went wrong while logging in to Calendly'
     );

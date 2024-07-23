@@ -67,6 +67,7 @@ router.get('/api/users/calendly/callback', currentUser, async (req, res) => {
 
     res.send({});
   } catch (error) {
+    console.log(error);
     throw new InternalError(
       'Something went wrong while logging in to Calendly'
     );
