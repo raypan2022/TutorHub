@@ -10,3 +10,4 @@ TutorHub is an online class booking platform aimed at helping Ontario high schoo
 - A microservices architecture is used to implement various services, such as authentication, classes, and payments
 - Testing is conducted via Jest and SuperTest
 - Backend is written entirely in TypeScript for better error detection
+- Frontend uses Next.js and Bootstrap
