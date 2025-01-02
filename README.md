@@ -1,5 +1,5 @@
 # TutorHub
-### Introduction
+## Introduction
 ---
 TutorHub is an online class booking platform aimed at helping Ontario high school and university students. 
 - Teachers can create accounts and freely choose classes they would like to teach
@@ -7,7 +7,7 @@ TutorHub is an online class booking platform aimed at helping Ontario high schoo
 - Students can then choose classes based on teachers
 - Payment is processed using the Stripe API
 
-### Technical Details
+## Technical Details
 ---
 - A microservices architecture is used to implement various services, such as authentication, classes, and payments
 - Testing is conducted via Jest and SuperTest
