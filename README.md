@@ -1,5 +1,4 @@
 # TutorHub
----
 ### Introduction
 TutorHub is an online class booking platform aimed at helping Ontario high school and university students. 
 - Teachers can create accounts and freely choose classes they would like to teach
